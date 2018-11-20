@@ -31,10 +31,7 @@ h1 {
 	left:0;
 	top:-45px;
 	margin:0 auto;
-	background-color:#fff;
-	background-image:url(letter.png);
-	background-repeat:no-repeat;
-	background-position:center;
+    background:#fff url(letter.png) no-repeat center;
 	width:90px;
 	height:90px;
 	border-radius: 45px;
