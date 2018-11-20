@@ -1,24 +1,18 @@
-body
-{
-	background-color:#DEDEDE;
-}
-h1
-{
+h1 {
 	font-size:30px;
 	color:#333;
 	text-align:center;
 }
-.form-container
-{
+.form-container {
 	width:100%;
 	height:100%;
 	position:absolute;
 	top:0;
 	left:0;
 	overflow:auto;
+	background-color:#DEDEDE;
 }
-.form
-{
+.form {
 	width:800px;
 	height:550px;
 	padding: 0px 70px 90px 70px;
@@ -29,8 +23,7 @@ h1
 	background-color:#fff;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-.form-icon
-{
+.form-icon {
 	position:relative;
 	left:0;
 	top:-45px;
@@ -43,8 +36,7 @@ h1
 	height:90px;
 	border-radius: 45px;
 }
-.form-input
-{
+.form-input {
 	box-sizing:border-box;
 	height:60px;
 	width:378px;
@@ -55,12 +47,10 @@ h1
 	margin:15px 10px;
 	border: 1px solid #e4e4e4;
 }
-.form-input:focus
-{
+.form-input:focus {
 	border: 1px solid #ff4b5a;
 }
-.form-input-text
-{
+.form-input-text {
 	box-sizing:border-box;
 	height:200px;
 	width:780px;
@@ -71,12 +61,10 @@ h1
 	margin:15px 10px;
 	border: 1px solid #e4e4e4;
 }
-.form-input-text:focus
-{
+.form-input-text:focus {
 	border: 1px solid #ff4b5a;
 }
-.form-button
-{
+.form-button {
 	border:0px;
 	height:50px;
 	width:100px;
@@ -86,8 +74,7 @@ h1
 	color:#fff;
 	margin:0 0 0 690px;
 }
-.form-button:hover
-{
+.form-button:hover {
 	background-color:#333;
 	cursor:pointer;
 }
