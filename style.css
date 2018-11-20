@@ -50,6 +50,7 @@ h1 {
 
 .form-input:focus {
 	border: 1px solid #ff4b5a;
+    outline: 0;
 }
 
 .form-input-text {
@@ -66,6 +67,7 @@ h1 {
 
 .form-input-text:focus {
 	border: 1px solid #ff4b5a;
+    outline: 0;
 }
 
 .form-button-container {
