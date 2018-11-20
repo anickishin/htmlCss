@@ -1,0 +1,93 @@
+body
+{
+	background-color:#DEDEDE;
+}
+h1
+{
+	font-size:30px;
+	color:#333;
+	text-align:center;
+}
+.full-div
+{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	overflow:auto;
+}
+.message-form
+{
+	width:800px;
+	height:550px;
+	padding: 0px 70px 90px 70px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin: -315px 0 0 -400px;
+	background-color:#fff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+.icn-form
+{
+	position:relative;
+	left:0;
+	top:-45px;
+	margin:0 auto;
+	background-color:#fff;
+	background-image:url(letter.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	width:90px;
+	height:90px;
+	border-radius: 45px;
+}
+.input-string
+{
+	box-sizing:border-box;
+	height:60px;
+	width:378px;
+	padding:18px;
+	border-radius: 2px;
+	color:#333;
+	font-size:20px;
+	margin:15px 10px;
+	border: 1px solid #e4e4e4;
+}
+.input-string:focus
+{
+	border: 1px solid #ff4b5a;
+}
+.input-text
+{
+	box-sizing:border-box;
+	height:200px;
+	width:780px;
+	padding:15px;
+	border-radius: 2px;
+	color:#333;
+	font-size:16px;
+	margin:15px 10px;
+	border: 1px solid #e4e4e4;
+}
+.input-text:focus
+{
+	border: 1px solid #ff4b5a;
+}
+.button-send
+{
+	border:0px;
+	height:50px;
+	width:100px;
+	background-color:#ff4b5a;
+	border-radius: 2px;
+	font-size:18px;
+	color:#fff;
+	margin:0 0 0 690px;
+}
+.button-send:hover
+{
+	background-color:#333;
+	cursor:pointer;
+}
