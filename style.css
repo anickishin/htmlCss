@@ -13,9 +13,9 @@ h1 {
 	background-color: #DEDEDE;
 	display: -webkit-flex; 
 	-webkit-justify-content: center;
+	-webkit-align-items: center;
 	display: flex;
 	justify-content: center;
-	-webkit-align-items: center;
 	align-items: center;
 }
 
@@ -35,6 +35,13 @@ h1 {
 	width: 90px;
 	height: 90px;
 	border-radius: 45px;
+}
+
+.form-input-container {
+	display: -webkit-flex; 
+	-webkit-justify-content: space-between;
+	display: flex;
+	justify-content: space-between;
 }
 
 .form-input {
