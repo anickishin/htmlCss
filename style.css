@@ -27,11 +27,12 @@
 	box-sizing: border-box;
 }
 
-.form-icon {
+.form:before {
+	content: "";
+    display: inline-block;
 	position: relative;
-	left: 0;
 	top: -45px;
-	margin: 0 auto;
+    left: calc(50% - 45px);
 	background: #fff url(letter.png) no-repeat center;
 	width: 90px;
 	height: 90px;
