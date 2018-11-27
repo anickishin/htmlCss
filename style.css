@@ -8,7 +8,7 @@
     -webkit-justify-content: center;
     justify-content: center;
     left: 0;
-    min-height: 850px;
+    min-height: 900px;
     position: absolute;
     right: 0;
     top: 0;
@@ -93,7 +93,13 @@
     cursor: pointer;
 }
 
-@media (min-width: 413px) {
+@media (min-width: 300px) {
+    .feedback-container {
+        min-height: 850px;
+    }
+}
+
+@media (min-width: 430px) {
     .feedback-form {
         padding: 0px 70px 90px 70px;
     }
