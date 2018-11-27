@@ -7,22 +7,24 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="form-container">
-            <div class="form">
-                <h1 class="form-header">Drop Us A Message</h1>
-                <form>
-                    <div class="form-input-container">
-                        <input class="form-input" type="text" placeholder="Name">
-                        <input class="form-input" type="email" placeholder="Email Address">
+        <form>
+            <div class="feedback-container">
+                <div class="feedback-form">
+                    <div class="feedback-form-row">
+                        <h1 class="feedback-form-row__header">Drop Us A Message</h1>
                     </div>
-                    <div class="form-input-container">
-                        <textarea class="form-input-text" placeholder="Write Us A Message"></textarea>
+                    <div class="feedback-form-row">
+                        <input class="feedback-form-row__input" type="text" placeholder="Name">
+                        <input class="feedback-form-row__input" type="email" placeholder="Email Address">
                     </div>
-                    <div class="form-button-container">
-                        <input class="form-button" type="submit" value="Send">
+                    <div class="feedback-form-row">
+                        <textarea class="feedback-form-row__input feedback-form-row__input_text" placeholder="Write Us A Message"></textarea>
                     </div>
-                </form>
+                    <div class="feedback-form-row feedback-form-row_submit">
+                        <input class="feedback-form-row__button" type="submit" value="Send">
+                    </div>
+                </div>
             </div>
-        </div>
+        </form>
     </body>
 </html>
